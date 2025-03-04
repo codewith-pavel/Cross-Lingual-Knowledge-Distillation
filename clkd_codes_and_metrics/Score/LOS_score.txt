@@ -1,0 +1,48 @@
+ENG
+CORE_baseline_epoch_4_roc_0.7073.pth 0.7230827080011645
+BIO_CLI_baseline_epoch_4_roc_0.7171.pth 0.722614394680054
+BUIBERT_baseline_epoch_5_roc_0.7129.pth 0.722061511854121
+DISCHARGE_baseline_epoch_5_roc_0.7168.pth 0.7201356297312048
+en
+GT_EN_CORE_baseline_epoch_4_roc_0.7081.pth 0.7173324269166962
+GT_EN_BIO_CLI_baseline_epoch_3_roc_0.7161.pth 0.7171179442524963
+GT_EN_BUIBERT_baseline_epoch_5_roc_0.7072.pth 0.715782250783191
+GT_EN_DISCHARGE_baseline_epoch_5_roc_0.7143.pth 0.724610438841756
+AI_EN_CORE_baseline_epoch_4_roc_0.7070.pth 0.7121511887417498
+AI_EN_BIO_CLI_baseline_epoch_5_roc_0.7165.pth 0.7178062721068602
+AI_EN_BUIBERT_baseline_epoch_4_roc_0.7057.pth 0.7143567013730688
+AI_EN_DISCHARGE_baseline_epoch_5_roc_0.7195.pth 0.726084194295323
+PE_EN_CORE_baseline_epoch_6_roc_0.7084.pth 0.7198808196585146
+PE_EN_BIO_CLI_baseline_epoch_6_roc_0.7106.pth 0.7120162313415613
+PE_EN_BUIBERT_baseline_epoch_6_roc_0.7063.pth 0.715246628088368
+PE_EN_DISCHARGE_baseline_epoch_4_roc_0.7138.pth 0.7237415257108123
+bn
+GT_BN_BANGLA_baseline_epoch_5_roc_0.6882.pth 0.6953880154803559
+GT_BN_BENGALI_baseline_epoch_6_roc_0.6873.pth 0.6886025301959973
+GT_BN_ELECTRA_baseline_epoch_27_roc_0.6526.pth 0.6542564804330495
+AI_BN_BANGLA_baseline_epoch_4_roc_0.6898.pth 0.7017795817902127
+AI_BN_BENGALI_baseline_epoch_6_roc_0.6838.pth 0.6911445985477505
+AI_BN_ELECTRA_baseline_epoch_29_roc_0.6463.pth 0.6515051766490508
+PE_BN_BANGLA_baseline_epoch_6_roc_0.6978.pth 0.6999386979836987
+PE_BN_BENGALI_baseline_epoch_8_roc_0.6900.pth 0.6930782270153196
+PE_BN_ELECTRA_baseline_epoch_28_roc_0.6558.pth 0.668738194392691
+
+Distilled-BERT (baseline)
+GT_BN_DISTILLED_baseline_epoch_6_roc_0.6527.pth 0.6630121337291631
+AI_BN_DISTILLED_baseline_epoch_5_roc_0.6547.pth 0.6624368078339349
+PE_BN_DISTILLED_baseline_epoch_6_roc_0.6502.pth 0.6590879688902963 
+xlm-roberta-base (baseline)
+LOS_PE_BN_ROBERTA_baseline_epoch_8_roc_0.6849.pth 0.6948264396330438
+LOS_AI_BN_ROBERTA_baseline_epoch_12_roc_0.6857.pth 0.6884686406024129
+LOS_GT_BN_ROBERTA_baseline_epoch_12_roc_0.6821.pth 0.690295439228124
+
+Teacher: (LOS_ENEMBLE_TEACHER_epoch_3_roc_0.7813.pth) 0.787700382708955
+Cross Lingual Knowledge Distillation: (alpha = 0.25, temperature = 5)
+Teacher -> Roberta (HRL) : LOS_INTEMEDIATE_epoch_28_roc_0.7764409004087038_alpha_1.0_temperature_2.pth 0.7819486777664664
+Teacher -> Roberta (LRL) (GT) : GT_LOS_INTEMEDIATE_epoch_4_roc_0.6958560221852946_alpha_0.44999999999999996_temperature_2.pth 0.6959365990004004
+Teacher -> Roberta (LRL) (AI) : AI_LOS_INTEMEDIATE_epoch_4_roc_0.6888562121537489_alpha_0.44999999999999996_temperature_2.pth 0.6914747985688455
+Teacher -> Roberta (LRL) (PE) : PE_LOS_INTEMEDIATE_epoch_4_roc_0.716079609623379_alpha_0.44999999999999996_temperature_2.pth 0.7134676919172508
+Teacher -> Distilled-BERT (HRL) : LOS_INTEMEDIATE_epoch_3_roc_0.7671890346371114_alpha_0.39999999999999997_temperature_4.286875.pth 0.7729102131458379
+Teacher -> Distilled-BERT (LRL) (GT) : LOS_INTEMEDIATE_epoch_4_roc_0.6909076441938986_alpha_0.44999999999999996_temperature_4.07253125.pth 0.6937858290513452
+Teacher -> Distilled-BERT (LRL) (AI) : LOS_INTEMEDIATE_epoch_4_roc_0.686648000870216_alpha_0.44999999999999996_temperature_4.07253125.pth 0.6895916718284935
+Teacher -> Distilled-BERT (LRL) (PE) : LOS_INTEMEDIATE_epoch_8_roc_0.686193090021457_alpha_0.65_temperature_3.317102156445312.pth 0.6878618186269401
