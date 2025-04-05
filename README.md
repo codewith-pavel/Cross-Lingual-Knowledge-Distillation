@@ -5,9 +5,6 @@
 
 This repository hosts the complete implementation and experimental artifacts for the paper:
 
-**"Refining Clinical Outcome Prediction via Cross-Lingual Methods and Adaptive Translation Strategies with SHAP"**  
-*Accepted at [Conference/Journal Name]*
-
 ---
 
 ## 📌 Abstract
