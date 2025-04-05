@@ -21,14 +21,6 @@ We achieve **state-of-the-art AUC scores**:
 - **0.7877** for *length-of-stay prediction* using MIMIC-III.
 
 ---
-
-```
-
-**Pretrained Models**: Download from HuggingFace:
-- [BanglaBERT](https://huggingface.co/csebuetnlp/banglabert)
-- [ClinicalBERT](https://huggingface.co/emilyalsentzer/Bio_ClinicalBERT)
-- [XLM-RoBERTa](https://huggingface.co/xlm-roberta-base)
-
 ---
 
 ## 🧠 Key Components
