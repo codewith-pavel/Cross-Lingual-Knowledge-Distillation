@@ -1,0 +1,104 @@
+Roberta (LOS): 
+CLTL : (Training, Validation, Inference, size)
+
+GT
+Training, Validation, Inference Size
+2.28it/s, 8.31it/s, 8.31it/s 1.11GB
+AI
+Training, Validation, Inference Size
+2.30it/s, 8.37it/s, 8.37it/s 1.11GB
+PE
+Training, Validation, Inference Size
+2.31it/s, 8.40it/s, 8.41it/s 1.11GB
+------------------------------------------------
+Roberta (LOS): 
+CLKD : (Training, Validation, Inference, size)
+
+GT
+Training, Validation, Inference Size
+4.74it/s, 29.02it/s, 29.06it/s  1.11GB
+AI
+Training, Validation, Inference Size
+4.75it/s, 29.05it/s, 29.01it/s  1.11GB
+PE
+Training, Validation, Inference Size
+4.73it/s, 28.81it/s, 28.84it/s  1.11GB
+-----------------------------------------------
+Distill-BERT (LOS): 
+CLTL : (Training, Validation, Inference, size)
+
+GT
+Training, Validation, Inference Size
+4.66it/s, 16.62it/s, 16.63it/s 267.87 MB
+AI
+Training, Validation, Inference Size
+4.67it/s, 16.63it/s, 16.69it/s 267.87 MB
+PE
+Training, Validation, Inference Size
+4.68it/s, 16.68it/s, 16.63it/s 267.87 MB
+----------------------------------------------
+Distill-BERT (LOS): 
+CLKD : (Training, Validation, Inference, size) 
+
+GT
+Training, Validation, Inference Size
+7.31it/s, 55.44it/s, 54.96it/s 267.88MB
+AI
+Training, Validation, Inference Size
+7.35it/s, 55.75it/s, 55.87it/s 267.88MB
+PE
+Training, Validation, Inference Size
+7.35it/s, 56.13it/s, 56.12it/s 267.88MB
+===============================================================
+Roberta (MP): 
+CLTL : (Training, Validation, Inference, size)
+
+GT
+Training, Validation, Inference Size
+2.29it/s, 8.40it/s, 8.40it/s 1.11GB
+AI
+Training, Validation, Inference Size
+2.30it/s, 8.37it/s, 8.37it/s 1.11GB
+PE
+Training, Validation, Inference Size
+2.31it/s, 8.38it/s, 8.38it/s 1.11GB
+----------------------------------------------
+Roberta (MP): 
+CLKD : (Training, Validation, Inference, size)
+
+GT
+Training, Validation, Inference Size
+4.73it/s, 29.03it/s, 29.07it/s 1.11GB
+
+AI
+Training, Validation, Inference Size
+4.72it/s, 28.68it/s, 28.56it/s 1.11GB
+PE
+Training, Validation, Inference Size
+4.74it/s, 29.02it/s, 29.03it/s 1.11GB
+----------------------------------------------
+Distill-BERT (MP): 
+CLTL : (Training, Validation, Inference, size)
+
+GT
+Training, Validation, Inference Size
+4.66it/s, 16.55it/s, 16.57it/s 267.87 MB
+AI
+Training, Validation, Inference Size
+4.66it/s, 16.44it/s, 16.45it/s 267.87 MB
+PE
+Training, Validation, Inference Size
+4.61it/s, 16.44it/s, 16.47it/s 267.87 MB
+----------------------------------------------
+Distill-BERT (MP): 
+CLKD : (Training, Validation, Inference, size)
+
+GT
+Training, Validation, Inference Size 
+7.33it/s, 55.94it/s, 56.08it/s 267.88MB
+AI
+Training, Validation, Inference Size
+7.35it/s, 56.27it/s, 56.41it/s 267.88MB
+PE
+Training, Validation, Inference Size
+7.35it/s, 56.28it/s, 56.33it/s 267.88MB
